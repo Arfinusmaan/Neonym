@@ -19,9 +19,7 @@ const Contact = () => {
     setForm({ ...form, [name]: value });
   };
 
-  //service_mgl3rbo
-  //template_chfc7jk
-  //qiFbD-ct1WyfM2DWX
+
 
   const handleSubmit = async (e) => {
     e.preventDefault();
