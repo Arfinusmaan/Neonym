@@ -7,43 +7,43 @@ const DEFAULT_GLOW_COLOR = "132, 0, 255";
 const MOBILE_BREAKPOINT = 768;
 
 const cardData = [
-  {
-    color: "#fffbf5",
-    title: "Mission",
-    description: "To create digital solutions that not only meet technical requirements but also delight users with intuitive design and seamless interactions.",
-    label: "Vision",
-  },
-  {
-    color: "#fffbf5",
-    title: "Experience",
-    description: "3+ years of experience across various domains including education, business solutions, and personal projects.",
-    label: "Expertise",
-  },
-  {
-    color: "#fffbf5",
-    title: "Quality First",
-    description: "Every project deserves attention to detail and pixel-perfect execution.",
-    label: "Standards",
-  },
-  {
-    color: "#fffbf5",
-    title: "User-Centered",
-    description: "Design decisions are always made with the end user experience in mind.",
-    label: "Approach",
-  },
-  {
-    color: "#fffbf5",
-    title: "Continuous Learning",
-    description: "Staying current with the latest technologies and design trends.",
-    label: "Growth",
-  },
-  {
-    color: "#fffbf5",
-    title: "Collaboration",
-    description: "Working closely with clients to bring their vision to life.",
-    label: "Partnership",
-  },
-];
+    {
+      color: "#fffbf5",
+      title: "Mission",
+      description: "Empowering learners with innovation, discipline, and purpose — shaping the next generation of thinkers and leaders.",
+      label: "Vision",
+    },
+    {
+      color: "#fffbf5",
+      title: "Experience",
+      description: "Years of proven excellence in education, training, and mentoring — mastering both traditional methods and cutting-edge digital platforms.",
+      label: "Expertise",
+    },
+    {
+      color: "#fffbf5",
+      title: "Quality First",
+      description: "We uphold uncompromising standards of quality, ethics, and innovation — every lesson, every system, every result is benchmarked at the highest level.",
+      label: "Standards",
+    },
+    {
+      color: "#fffbf5",
+      title: "User-Centered",
+      description: "A learner-first approach rooted in clarity, consistency, and creativity — designed to deliver results that are measurable, scalable, and future-ready.",
+      label: "Approach",
+    },
+    {
+      color: "#fffbf5",
+      title: "Continuous Learning",
+      description: "Continuous evolution through research, technology, and feedback — ensuring our students never stop moving forward.",
+      label: "Growth",
+    },
+    {
+      color: "#fffbf5",
+      title: "Collaboration",
+      description: "Built on trust, collaboration, and long-term vision — we work with students, parents, and institutions as true partners in success.",
+      label: "Partnership",
+    },
+  ];
 
 const createParticleElement = (
   x,
