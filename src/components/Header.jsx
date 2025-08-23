@@ -49,7 +49,7 @@ const Header = () => {
             className="flex items-center space-x-3"
           >
             <img 
-              src="/public/neonym-high-resolution-logo.png" 
+              src="/logo.png" 
               alt="Neonym" 
               className="h-10 w-auto"
             />

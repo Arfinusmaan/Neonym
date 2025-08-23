@@ -22,11 +22,11 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row items-center justify-between space-y-6 md:space-y-0">
           {/* Logo and Brand */}
           <div className="flex items-center space-x-3">
-            {/* <img 
+            <img 
               src="/logo.png" 
               alt="Neonym" 
               className="h-8 w-auto"
-            /> */}
+            />
             <span className="text-2xl font-palanquin text-[#a18080] font-semibold animate-pulse">
               Neonym
             </span>
