@@ -323,7 +323,7 @@ const Experience = () => {
                 </div>
                 <div className="text-center">
                   <div className="text-3xl md:text-4xl font-palanquin font-bold text-[#a18080] mb-2">
-                    50+
+                    25+
                   </div>
                   <div className="text-sm font-montserrat text-[#5c5451]">
                     Happy Clients
