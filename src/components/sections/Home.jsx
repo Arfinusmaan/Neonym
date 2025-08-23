@@ -28,8 +28,8 @@ const Home = () => {
         {/* Background Logo */}
         <div className="hero-logo-bg absolute inset-0 flex items-center justify-center pointer-events-none">
           <img 
-            src="/public/neonym-high-resolution-logo.png" 
-            alt="" 
+            src="/logo.png" 
+            alt="Logo" 
             className="w-96 h-96 object-contain opacity-5"
           />
         </div>
