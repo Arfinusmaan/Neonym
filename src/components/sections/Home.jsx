@@ -27,11 +27,11 @@ const Home = () => {
       <div className="relative min-h-screen flex items-center justify-center px-6 overflow-hidden">
         {/* Background Logo */}
         <div className="hero-logo-bg absolute inset-0 flex items-center justify-center pointer-events-none">
-          <img 
+          {/* <img 
             src="/logo.png" 
-            alt="Logo" 
+            alt="Neonym" 
             className="w-96 h-96 object-contain opacity-5"
-          />
+          /> */}
         </div>
 
         <div className="relative z-10 text-center max-w-4xl mx-auto">
