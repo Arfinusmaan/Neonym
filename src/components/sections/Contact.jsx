@@ -19,8 +19,6 @@ const Contact = () => {
     setForm({ ...form, [name]: value });
   };
 
-
-
   const handleSubmit = async (e) => {
     e.preventDefault();
 
@@ -102,11 +100,11 @@ const Contact = () => {
         <div className="text-center mb-16">
           <ScrollReveal>
             <BlurText className="text-4xl md:text-5xl font-palanquin font-bold text-[#a18080] mb-6">
-              Let's Work Together
+              Let’s Build Something Extraordinary
             </BlurText>
             <p className="text-xl font-montserrat text-[#5c5451] max-w-3xl mx-auto leading-relaxed">
-              Ready to bring your project to life? I'd love to hear about your
-              ideas and discuss how we can create something amazing together.
+              Have an idea in mind? Share your vision, and I’ll help you craft
+              something innovative, elegant, and built to last.
             </p>
           </ScrollReveal>
         </div>
@@ -219,14 +217,15 @@ const Contact = () => {
           <ScrollReveal delay={0.2}>
             <div className="space-y-8">
               <div>
-                <h2 className="text-2xl font-palanquin font-bold text-[#a18080] mb-6">
+                <h2 className="text-3xl md:text-4xl font-palanquin font-bold text-[#a18080] mb-4 relative">
                   Get in Touch
+                  {/* <span className="absolute -bottom-1 left-0 w-16 h-1 bg-[#a18080]/60 rounded-full"></span> */}
                 </h2>
-                <p className="font-montserrat text-[#5c5451] leading-relaxed mb-8">
-                  Whether you have a specific project in mind or just want to
-                  explore possibilities, I'm here to help. Let's start a
-                  conversation about your goals and how we can achieve them
-                  together.
+                <p className="font-montserrat text-lg md:text-xl text-[#5c5451] leading-relaxed mb-6 max-w-2xl">
+                  Have an idea, a project, or just a spark of curiosity? ✨
+                  Let’s connect and explore how we can bring your vision to life
+                  together. Your message could be the start of something
+                  amazing.
                 </p>
               </div>
 
@@ -264,9 +263,9 @@ const Contact = () => {
                   Response Time
                 </h3>
                 <p className="font-montserrat text-[#5c5451] text-sm leading-relaxed">
-                  I typically respond to all inquiries within 24 hours. For
-                  urgent projects, feel free to mention it in your message and
-                  I'll prioritize accordingly.
+                  We aim to respond to all inquiries within 24 hours. For
+                  time-sensitive projects, simply mention the urgency in your
+                  message, and we will ensure it receives priority attention.
                 </p>
               </div>
 
@@ -275,9 +274,9 @@ const Contact = () => {
                   Project Timeline
                 </h3>
                 <p className="font-montserrat text-[#5c5451] text-sm leading-relaxed">
-                  Most projects are completed within 2-4 weeks, depending on
-                  complexity and scope. We'll discuss timeline expectations
-                  during our initial consultation.
+                  Most projects are completed within 2–4 weeks, depending on
+                  scope and complexity. Timeline expectations will be clearly
+                  outlined during our initial consultation.
                 </p>
               </div>
             </div>

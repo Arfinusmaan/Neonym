@@ -75,14 +75,14 @@ const Experience = () => {
 
   const certifications = [
     {
-      title: "React Developer Certification",
+      title: "Web Developer",
       issuer: "Unified Mentor",
       year: "2025",
       icon: Award,
     },
     {
-      title: "Frontend Developer",
-      issuer: "Unified Mentor",
+      title: "Full stack development",
+      issuer: "Stellaraa",
       year: "2025",
       icon: Award,
     },
@@ -93,9 +93,9 @@ const Experience = () => {
       icon: Award,
     },
     {
-      title: "Backend Developer",
-      issuer: "Inmakes Infotech",
-      year: "2024",
+      title: "Ui & UX",
+      issuer: "4educate",
+      year: "2025",
       icon: Award,
     },
   ];

@@ -1,5 +1,7 @@
 import React from 'react';
 import MagicBento from './MagicBento';
+import ScrollReveal from '../animations/ScrollReveal';
+import BlurText from '../animations/BlurText';
 
 const About = () => {
   const cardData = [
@@ -44,15 +46,15 @@ const About = () => {
   return (
     <section id="about" className="min-h-screen bg-[#fffbf5] py-20">
       <div className="max-w-7xl mx-auto px-6 py-12">
-        <div className="text-center mb-12">
-          <h1 className="text-4xl md:text-5xl font-palanquin font-bold text-[#a18080] mb-6">
+        <ScrollReveal className="text-center mb-12 transition-colors duration-200">
+          <BlurText className="text-4xl md:text-5xl font-palanquin font-bold text-[#a18080] mb-6">
             About Neonym
-          </h1>
+          </BlurText>
           <p className="text-xl font-montserrat text-[#5c5451] max-w-3xl mx-auto leading-relaxed">
             Passionate about creating digital experiences that are both beautiful and functional, 
             with a focus on clean design and thoughtful user interactions.
           </p>
-        </div>
+        </ScrollReveal>
 
         <MagicBento
           textAutoHide={true}
@@ -73,7 +75,7 @@ const About = () => {
                 <span className="card__label text-base text-[#a18080] font-semibold">{card.label}</span>
               </div>
               <div className="card__content flex flex-col relative">
-                <h3 className="card__title font-normal text-base m-0 mb-1 text-[#a18080] font-bold">
+                <h3 className="card__title text-base m-0 mb-1 text-[#a18080] font-bold">
                   {card.title}
                 </h3>
                 <p className="card__description text-xs leading-5 opacity-90 text-[#5c5451]">

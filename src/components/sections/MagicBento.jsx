@@ -7,43 +7,44 @@ const DEFAULT_GLOW_COLOR = "132, 0, 255";
 const MOBILE_BREAKPOINT = 768;
 
 const cardData = [
-    {
-      color: "#fffbf5",
-      title: "Mission",
-      description: "Empowering learners with innovation, discipline, and purpose — shaping the next generation of thinkers and leaders.",
-      label: "Vision",
-    },
-    {
-      color: "#fffbf5",
-      title: "Experience",
-      description: "Years of proven excellence in building scalable web apps, driving digital innovation, and mastering both reliable frameworks and cutting-edge technologies.",
-      label: "Expertise",
-    },
-    {
-      color: "#fffbf5",
-      title: "Quality First",
-      description: "We uphold uncompromising standards of quality, ethics, and innovation — every lesson, every system, every result is benchmarked at the highest level.",
-      label: "Standards",
-    },
-    {
-      color: "#fffbf5",
-      title: "User-Centered",
-      description: "A learner-first approach rooted in clarity, consistency, and creativity — designed to deliver results that are measurable, scalable, and future-ready.",
-      label: "Approach",
-    },
-    {
-      color: "#fffbf5",
-      title: "Continuous Learning",
-      description: "Continuous evolution through research, technology, and feedback — ensuring our students never stop moving forward.",
-      label: "Growth",
-    },
-    {
-      color: "#fffbf5",
-      title: "Collaboration",
-      description: "Built on trust, collaboration, and long-term vision — we work with students, parents, and institutions as true partners in success.",
-      label: "Partnership",
-    },
-  ];
+  {
+    color: "#fffbf5",
+    title: "Our Mission",
+    description: "We design digital experiences that inspire, empower, and scale with purpose.",
+    label: "Vision",
+  },
+  {
+    color: "#fffbf5",
+    title: "Proven Expertise",
+    description: "From startups to enterprises — years of building scalable apps, brands, and systems that deliver results.",
+    label: "Experience",
+  },
+  {
+    color: "#fffbf5",
+    title: "Uncompromising Quality",
+    description: "Every line of code, every design element, every decision — benchmarked against the highest standards.",
+    label: "Standards",
+  },
+  {
+    color: "#fffbf5",
+    title: "Human-Centered Approach",
+    description: "Our strategy starts with people — clarity, simplicity, and creativity built for long-term impact.",
+    label: "Approach",
+  },
+  {
+    color: "#fffbf5",
+    title: "Always Evolving",
+    description: "Driven by research and emerging tech — we adapt fast so you always stay ahead of the curve.",
+    label: "Growth",
+  },
+  {
+    color: "#fffbf5",
+    title: "Built on Trust",
+    description: "Partnerships that go beyond projects — we grow together with our clients and communities.",
+    label: "Collaboration",
+  },
+];
+
 
 const createParticleElement = (
   x,

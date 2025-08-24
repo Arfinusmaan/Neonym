@@ -39,14 +39,14 @@ const Home = () => {
             className="text-5xl md:text-7xl font-palanquin font-bold text-[#a18080] mb-6"
             delay={0.5}
           >
-            Creative Solutions
+            Creative Web Design
           </SplitText>
           
           <SplitText 
             className="text-4xl md:text-6xl font-palanquin font-bold text-[#a18080] mb-8"
             delay={1}
           >
-            Beautiful Designs
+            Modern Development
           </SplitText>
 
           <BlurText 
@@ -62,14 +62,14 @@ const Home = () => {
               onClick={() => scrollToSection('contact')}
               className="w-full md:w-auto"
             >
-              Let's Work Together
+              Start Your Project
             </ShinyButton>
             
             <button 
               onClick={() => scrollToSection('work')}
               className="w-full md:w-auto px-8 py-3 font-montserrat text-[#5c5451] hover:text-[#a18080] transition-colors duration-200"
             >
-              View My Work →
+              See Our Work →
             </button>
           </div>
         </div>
