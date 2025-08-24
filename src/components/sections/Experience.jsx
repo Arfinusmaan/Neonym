@@ -77,35 +77,35 @@ const Experience = () => {
   const certifications = [
     {
       title: 'React Developer Certification',
-      issuer: 'Meta',
-      year: '2023',
+      issuer: 'Unified Mentor',
+      year: '2025',
       icon: Award
     },
     {
-      title: 'Advanced JavaScript',
-      issuer: 'FreeCodeCamp',
-      year: '2022',
+      title: 'Frontend Developer',
+      issuer: 'Unified Mentor',
+      year: '2025',
       icon: Award
     },
     {
-      title: 'UI/UX Design Principles',
-      issuer: 'Google',
-      year: '2022',
+      title: 'Python Full Stack Developer',
+      issuer: 'Inmakes Infotech',
+      year: '2024',
       icon: Award
     },
     {
-      title: 'Web Accessibility',
-      issuer: 'W3C',
-      year: '2021',
+      title: 'Backend Developer',
+      issuer: 'Inmakes Infotech',
+      year: '2024',
       icon: Award
     }
   ];
 
   const skills = {
-    'Frontend Development': ['React', 'Next.js', 'TypeScript', 'JavaScript', 'Vue.js'],
-    'Styling & Design': ['Tailwind CSS', 'CSS3', 'SASS', 'Styled Components', 'Figma'],
+    'Frontend Development': ['React', 'JavaScript', 'Gsap', 'React Three Fiber'],
+    'Styling & Design': ['Tailwind CSS', 'CSS3', 'SASS', 'Styled Components'],
     'Backend & Database': ['Node.js', 'Express', 'MongoDB', 'Firebase', 'PostgreSQL'],
-    'Tools & Workflow': ['Git', 'Webpack', 'Vite', 'Docker', 'AWS', 'Vercel']
+    'Tools & Workflow': ['Git','Github' , 'Webpack', 'Vite', 'Netlify', 'Cloudflare', 'Vercel']
   };
 
   return (

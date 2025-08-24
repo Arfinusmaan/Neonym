@@ -10,9 +10,9 @@ const Footer = () => {
   };
 
   const socialLinks = [
-    { icon: Github, href: '#', label: 'GitHub' },
-    { icon: Linkedin, href: '#', label: 'LinkedIn' },
-    { icon: Mail, href: 'mailto:hello@neonym.com', label: 'Email' },
+    { icon: Github, href: 'https://github.com/Arfinusmaan', label: 'GitHub' },
+    { icon: Linkedin, href: 'https://www.linkedin.com/in/arfinusmaan', label: 'LinkedIn' },
+    { icon: Mail, href: 'mailto:contact.neonym@gmail.com', label: 'Email' },
     // { icon: Twitter, href: '#', label: 'Twitter' }
   ];
 
@@ -57,6 +57,8 @@ const Footer = () => {
                   key={index}
                   href={social.href}
                   aria-label={social.label}
+                  target='_blank'
+                  rel='noreferrer'
                   className="p-2 text-[#5c5451] hover:text-[#a18080] hover:bg-[#a18080]/10 rounded-full transition-all duration-200"
                 >
                   <Icon size={18} />
