@@ -1,111 +1,129 @@
-import React from 'react';
-import { Calendar, MapPin, Award, Users } from 'lucide-react';
-import BlurText from '../animations/BlurText';
-import ScrollReveal from '../animations/ScrollReveal';
-import ThreeDCard from '../animations/ThreeDCard';
+import React from "react";
+import { Calendar, MapPin, Award, Users } from "lucide-react";
+import BlurText from "../animations/BlurText";
+import ScrollReveal from "../animations/ScrollReveal";
+import ThreeDCard from "../animations/ThreeDCard";
 
 const Experience = () => {
-  const experiences =[
-  {
-    id: 1,
-    name: 'Arfin Usmaan',
-    title: 'Lead Web Developer & Founder',
-    company: 'Neonym Studio',
-    location: 'Palani, India (Remote Worldwide)',
-    period: '2023 – Present',
-    type: 'Freelance / Founder',
-    description:
-      'Delivering high-end, modern websites for startups, educational institutions, and businesses worldwide. Leading all aspects of the development process—from concept to deployment—while ensuring premium design quality and pixel-perfect execution.',
-    achievements: [
-      'Completed 50+ professional websites in just 20 days for startup clients using AI workflows and no-code tools.',
-      'Designed and deployed fully custom React + Tailwind sites for brands across multiple industries.',
-      'Consistently achieved 100% client satisfaction through on-time delivery and premium quality.'
-    ],
-    technologies: [
-      'HTML5',
-      'CSS3',
-      'JavaScript',
-      'Tailwind CSS',
-      'React',
-      'Three.js',
-      'React Three Fiber',
-      'React Three Drei',
-      'GSAP',
-      'Vite',
-      'Git',
-      'Vercel',
-      'Netlify',
-      'Cloudflare'
-    ]
-  },
-  {
-    id: 2,
-    name: 'Manikandan',
-    title: 'Full-Stack Web Developer & Founder',
-    company: 'Neonym Studio',
-    location: 'Palani, India',
-    period: '2023 – Present',
-    type: 'Freelance',
-    description:
-      'As a freelance Full-Stack Web Developer at Neonym Studio, I design and build modern, responsive websites and web applications tailored to client needs. My role covers the full development lifecycle—from conceptualizing user experiences to deploying robust, scalable solutions.',
-    achievements: [
-      'Developed and deployed 30+ client websites, improving average site load speed by over 30%.',
-      'Integrated secure payment gateways and optimized backend APIs, reducing transaction errors by 25%.',
-      'Implemented SEO-friendly architecture, helping clients achieve first-page rankings on Google for targeted keywords.'
-    ],
-    technologies: [
-      'HTML5',
-      'CSS3',
-      'JavaScript',
-      'React',
-      'Node.js',
-      'Express.js',
-      'MongoDB',
-      'Git',
-      'Figma',
-      'REST APIs',
-      'Tailwind CSS',
-      'Bootstrap',
-      'Firebase',
-      'Vite',
-      'Vercel'
-    ]
-  }
-
-  ]
+  const experiences = [
+    {
+      id: 1,
+      name: "Arfin Usmaan",
+      title: "Lead Developer & Founder (Neonym Studio)",
+      company: "Neonym Studio",
+      location: "Palani, India (Remote Worldwide)",
+      period: "2023 – Present",
+      type: "Freelance / Founder",
+      description:
+        "Building high-quality, modern web applications and digital experiences for startups, academies, and businesses worldwide. Overseeing the full lifecycle—from concept and UI/UX design to development and deployment—while ensuring performance, scalability, and premium design execution.",
+      achievements: [
+        "Delivered 50+ production-ready websites within 20 days for startups using AI-assisted workflows and custom builds.",
+        "Developed fully responsive React + Tailwind solutions tailored to diverse industries and client requirements.",
+        "Maintained a consistent record of 100% client satisfaction through timely delivery and top-tier quality standards.",
+      ],
+      technologies: [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "Tailwind CSS",
+        "React",
+        "Three.js",
+        "React Three Fiber",
+        "React Three Drei",
+        "GSAP",
+        "Vite",
+        "Git",
+        "Vercel",
+        "Netlify",
+        "Cloudflare",
+      ],
+    },
+    {
+      id: 2,
+      name: "Manikandan",
+      title: "Full-Stack Developer & Co-Founder (Neonym Studio)",
+      company: "Neonym Studio",
+      location: "Palani, India",
+      period: "2023 – Present",
+      type: "Freelance / Co-Founder",
+      description:
+        "Full-Stack Developer and Co-Founder at Neonym Studio, delivering modern, scalable, and user-focused web solutions. Skilled in both frontend and backend development, ensuring seamless experiences from UI design to robust server-side architecture.",
+      achievements: [
+        "Successfully developed and deployed 30+ client websites, enhancing performance and usability across industries.",
+        "Optimized backend APIs and integrated secure payment systems, reducing transaction errors and boosting reliability.",
+        "Delivered SEO-optimized architectures, enabling clients to achieve stronger visibility and higher rankings online.",
+      ],
+      technologies: [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "React",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "REST APIs",
+        "Tailwind CSS",
+        "Bootstrap",
+        "Figma",
+        "Firebase",
+        "Vite",
+        "Git",
+        "Vercel",
+      ],
+    },
+  ];
 
   const certifications = [
     {
-      title: 'React Developer Certification',
-      issuer: 'Unified Mentor',
-      year: '2025',
-      icon: Award
+      title: "React Developer Certification",
+      issuer: "Unified Mentor",
+      year: "2025",
+      icon: Award,
     },
     {
-      title: 'Frontend Developer',
-      issuer: 'Unified Mentor',
-      year: '2025',
-      icon: Award
+      title: "Frontend Developer",
+      issuer: "Unified Mentor",
+      year: "2025",
+      icon: Award,
     },
     {
-      title: 'Python Full Stack Developer',
-      issuer: 'Inmakes Infotech',
-      year: '2024',
-      icon: Award
+      title: "Python Full Stack Developer",
+      issuer: "Inmakes Infotech",
+      year: "2024",
+      icon: Award,
     },
     {
-      title: 'Backend Developer',
-      issuer: 'Inmakes Infotech',
-      year: '2024',
-      icon: Award
-    }
+      title: "Backend Developer",
+      issuer: "Inmakes Infotech",
+      year: "2024",
+      icon: Award,
+    },
   ];
 
   const skills = {
-    'Frontend Development': ['React', 'JavaScript', 'Gsap', 'React Three Fiber'],
-    'Styling & Design': ['Tailwind CSS', 'CSS3', 'SASS', 'Styled Components'],
-    'Backend & Database': ['Node.js', 'Express', 'MongoDB', 'Firebase', 'PostgreSQL'],
-    'Tools & Workflow': ['Git','Github' , 'Webpack', 'Vite', 'Netlify', 'Cloudflare', 'Vercel']
+    "Frontend Development": [
+      "React",
+      "JavaScript",
+      "Gsap",
+      "React Three Fiber",
+    ],
+    "Styling & Design": ["Tailwind CSS", "CSS3", "SASS", "Styled Components"],
+    "Backend & Database": [
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Firebase",
+      "PostgreSQL",
+    ],
+    "Tools & Workflow": [
+      "Git",
+      "Github",
+      "Webpack",
+      "Vite",
+      "Netlify",
+      "Cloudflare",
+      "Vercel",
+    ],
   };
 
   return (
@@ -115,22 +133,24 @@ const Experience = () => {
         <div className="text-center mb-16">
           <ScrollReveal>
             <BlurText className="text-4xl md:text-5xl font-palanquin font-bold text-[#a18080] mb-6">
-              Professional Experience
+              Our Professional Experience
             </BlurText>
             <p className="text-xl font-montserrat text-[#5c5451] max-w-3xl mx-auto leading-relaxed">
-              A journey through my professional growth, from junior developer to leading complex projects 
-              and building solutions that make a real impact.
+              At Neonym Studio, we bring together expertise in full-stack
+              development, design, and scalable web solutions. From startups to
+              enterprises, our team has successfully delivered projects across
+              diverse industries.
             </p>
           </ScrollReveal>
         </div>
 
         {/* Experience Timeline */}
         <div className="mb-20">
-          <ScrollReveal>
+          {/* <ScrollReveal>
             <h2 className="text-2xl md:text-3xl font-palanquin font-bold text-[#a18080] mb-8 text-center">
               Work Experience
             </h2>
-          </ScrollReveal>
+          </ScrollReveal> */}
 
           <div className="space-y-8">
             {experiences.map((exp, index) => (
@@ -144,17 +164,19 @@ const Experience = () => {
                 >
                   <div className="bg-white rounded-xl p-6 shadow-sm border border-[#a18080]/10">
                     <div className="flex flex-col md:flex-row md:items-start md:justify-between mb-4">
-                    <div className="mb-4 md:mb-0">
+                      <div className="mb-4 md:mb-0">
                         <h3 className="text-xl font-palanquin font-bold text-[#a18080] mb-1">
                           {exp.title}
                         </h3>
                         <p className=" font-montserrat font-medium text-[#5c5451] mb-1">
-                          <span className='text-[#a18080]'>Name:</span> {exp.name}
+                          <span className="text-[#a18080]">Name:</span>{" "}
+                          {exp.name}
                         </p>
                         <p className="font-montserrat font-medium text-[#5c5451] mb-2">
-                          <span className='text-[#a18080]'>Company:</span> {exp.company}
+                          <span className="text-[#a18080]">Company:</span>{" "}
+                          {exp.company}
                         </p>
-                         {/* Removed unnecessary empty paragraph */}
+                        {/* Removed unnecessary empty paragraph */}
                         <div className="flex flex-wrap items-center gap-4 text-sm font-montserrat text-[#5c5451]">
                           <div className="flex items-center">
                             <Calendar size={16} className="mr-1" />
@@ -181,7 +203,10 @@ const Experience = () => {
                       </h4>
                       <ul className="list-disc list-inside space-y-1">
                         {exp.achievements.map((achievement, idx) => (
-                          <li key={idx} className="font-montserrat text-[#5c5451] text-sm">
+                          <li
+                            key={idx}
+                            className="font-montserrat text-[#5c5451] text-sm"
+                          >
                             {achievement}
                           </li>
                         ))}
@@ -194,7 +219,7 @@ const Experience = () => {
                       </h4>
                       <div className="flex flex-wrap gap-2">
                         {exp.technologies.map((tech, idx) => (
-                          <span 
+                          <span
                             key={idx}
                             className="px-3 py-1 text-xs font-montserrat bg-[#a18080]/5 text-[#a18080] rounded-full"
                           >
@@ -226,23 +251,25 @@ const Experience = () => {
                   Technical Skills
                 </BlurText>
                 <div className="space-y-6">
-                  {Object.entries(skills).map(([category, skillList], index) => (
-                    <div key={index}>
-                      <h4 className="font-palanquin font-semibold text-[#5c5451] mb-3">
-                        {category}
-                      </h4>
-                      <div className="flex flex-wrap gap-2">
-                        {skillList.map((skill, idx) => (
-                          <span 
-                            key={idx}
-                            className="px-3 py-1 text-sm font-montserrat bg-[#a18080]/10 text-[#a18080] rounded-full"
-                          >
-                            {skill}
-                          </span>
-                        ))}
+                  {Object.entries(skills).map(
+                    ([category, skillList], index) => (
+                      <div key={index}>
+                        <h4 className="font-palanquin font-semibold text-[#5c5451] mb-3">
+                          {category}
+                        </h4>
+                        <div className="flex flex-wrap gap-2">
+                          {skillList.map((skill, idx) => (
+                            <span
+                              key={idx}
+                              className="px-3 py-1 text-sm font-montserrat bg-[#a18080]/10 text-[#a18080] rounded-full"
+                            >
+                              {skill}
+                            </span>
+                          ))}
+                        </div>
                       </div>
-                    </div>
-                  ))}
+                    )
+                  )}
                 </div>
               </div>
             </ThreeDCard>
@@ -265,7 +292,10 @@ const Experience = () => {
                   {certifications.map((cert, index) => {
                     const Icon = cert.icon;
                     return (
-                      <div key={index} className="flex items-center p-4 bg-[#a18080]/5 rounded-lg">
+                      <div
+                        key={index}
+                        className="flex items-center p-4 bg-[#a18080]/5 rounded-lg"
+                      >
                         <div className="p-2 bg-[#a18080]/10 rounded-full mr-4">
                           <Icon size={20} className="text-[#a18080]" />
                         </div>
@@ -288,49 +318,48 @@ const Experience = () => {
 
         {/* Summary Stats */}
         <ScrollReveal>
-          
-            <div className="mt-16 bg-gradient-to-br from-[#a18080]/10 to-[#a18080]/5 rounded-2xl p-8">
-              <div className="text-center mb-8">
-                <BlurText className="text-2xl md:text-3xl font-palanquin font-bold text-[#a18080] mb-4">
-                  Career Highlights
-                </BlurText>
-              </div>
+          <div className="mt-16 bg-gradient-to-br from-[#a18080]/10 to-[#a18080]/5 rounded-2xl p-8">
+            <div className="text-center mb-8">
+              <BlurText className="text-2xl md:text-3xl font-palanquin font-bold text-[#a18080] mb-4">
+                Career Highlights
+              </BlurText>
+            </div>
 
-              <div className="grid md:grid-cols-4 gap-8">
-                <div className="text-center">
-                  <div className="text-3xl md:text-4xl font-palanquin font-bold text-[#a18080] mb-2">
-                    4+
-                  </div>
-                  <div className="text-sm font-montserrat text-[#5c5451]">
-                    Years Experience
-                  </div>
+            <div className="grid md:grid-cols-4 gap-8">
+              <div className="text-center">
+                <div className="text-3xl md:text-4xl font-palanquin font-bold text-[#a18080] mb-2">
+                  4+
                 </div>
-                <div className="text-center">
-                  <div className="text-3xl md:text-4xl font-palanquin font-bold text-[#a18080] mb-2">
-                    50+
-                  </div>
-                  <div className="text-sm font-montserrat text-[#5c5451]">
-                    Projects Completed
-                  </div>
+                <div className="text-sm font-montserrat text-[#5c5451]">
+                  Years Experience
                 </div>
-                <div className="text-center">
-                  <div className="text-3xl md:text-4xl font-palanquin font-bold text-[#a18080] mb-2">
-                    15+
-                  </div>
-                  <div className="text-sm font-montserrat text-[#5c5451]">
-                    Technologies Mastered
-                  </div>
+              </div>
+              <div className="text-center">
+                <div className="text-3xl md:text-4xl font-palanquin font-bold text-[#a18080] mb-2">
+                  50+
                 </div>
-                <div className="text-center">
-                  <div className="text-3xl md:text-4xl font-palanquin font-bold text-[#a18080] mb-2">
-                    25+
-                  </div>
-                  <div className="text-sm font-montserrat text-[#5c5451]">
-                    Happy Clients
-                  </div>
+                <div className="text-sm font-montserrat text-[#5c5451]">
+                  Projects Completed
+                </div>
+              </div>
+              <div className="text-center">
+                <div className="text-3xl md:text-4xl font-palanquin font-bold text-[#a18080] mb-2">
+                  15+
+                </div>
+                <div className="text-sm font-montserrat text-[#5c5451]">
+                  Technologies Mastered
+                </div>
+              </div>
+              <div className="text-center">
+                <div className="text-3xl md:text-4xl font-palanquin font-bold text-[#a18080] mb-2">
+                  25+
+                </div>
+                <div className="text-sm font-montserrat text-[#5c5451]">
+                  Happy Clients
                 </div>
               </div>
             </div>
+          </div>
         </ScrollReveal>
       </div>
     </section>

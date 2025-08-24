@@ -16,7 +16,7 @@ const cardData = [
     {
       color: "#fffbf5",
       title: "Experience",
-      description: "Years of proven excellence in education, training, and mentoring — mastering both traditional methods and cutting-edge digital platforms.",
+      description: "Years of proven excellence in building scalable web apps, driving digital innovation, and mastering both reliable frameworks and cutting-edge technologies.",
       label: "Expertise",
     },
     {
