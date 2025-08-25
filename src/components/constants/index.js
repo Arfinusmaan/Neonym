@@ -9,14 +9,14 @@ const categories = [
         description:
           "A school website built with React, Tailwind, and Vite to highlight academics, student activities, and modern facilities in a clean layout.",
         techStack: ["React", "Tailwind CSS", "Vite"],
-        image: "/images/school1.png",
+        image: "/images/school1.webp",
         githubUrl: "https://github.com/mku2062022bca11/School1",
         liveUrl: "https://edu-neonym.vercel.app/",
       },
       {
         id: 2,
         title: "School 2",
-        image: "/images/school2.png",
+        image: "/images/school2.webp",
         description:
           "A dynamic school website using React, Tailwind, Vite, and Framer Motion with smooth animations to enhance the user experience.",
         techStack: ["React", "Tailwind CSS", "Vite", "Framer Motion"],
@@ -26,7 +26,7 @@ const categories = [
       {
         id: 3,
         title: "School 3",
-        image: "/images/school3.png",
+        image: "/images/school3.webp",
         description:
           "A responsive school website crafted with React, Tailwind, and Vite to showcase academics, activities, and infrastructure effectively.",
         techStack: ["React", "Tailwind CSS", "Vite"],
@@ -36,7 +36,7 @@ const categories = [
       {
         id: 4,
         title: "School 4",
-        image: "/images/school4.png",
+        image: "/images/school4.webp",
         description:
           "An elegant school website built with React, Tailwind, and Vite, designed to present academic programs and student activities seamlessly.",
         techStack: ["React", "Tailwind CSS", "Vite"],
@@ -46,7 +46,7 @@ const categories = [
       {
         id: 5,
         title: "School 5",
-        image: "/images/school5.png",
+        image: "/images/school5.webp",
         description:
           "A modern school website developed with React, Tailwind, and Vite to highlight curriculum, events, and infrastructure in a structured layout.",
         techStack: ["React", "Tailwind CSS", "Vite"],
@@ -56,7 +56,7 @@ const categories = [
       {
         id: 6,
         title: "School 6",
-        image: "/images/school6.png",
+        image: "/images/school6.webp",
         description:
           "A feature-rich school website built with React, Tailwind, Vite, and Framer Motion, offering smooth animations for an engaging user journey.",
         techStack: ["React", "Tailwind CSS", "Vite", "Framer Motion"],
@@ -66,7 +66,7 @@ const categories = [
       {
         id: 7,
         title: "School 7",
-        image: "/images/school7.png",
+        image: "/images/school7.webp",
         description:
           "An interactive school website created with React, Tailwind, Vite, and Framer Motion, featuring smooth transitions for a modern user experience.",
         techStack: ["React", "Tailwind CSS", "Vite", "Framer Motion"],
@@ -76,7 +76,7 @@ const categories = [
       {
         id: 8,
         title: "School 8",
-        image: "/images/school8.png",
+        image: "/images/school8.webp",
         description:
           "A clean and modern school website built with React, Tailwind, and Vite, designed for fast performance and responsive layouts.",
         techStack: ["React", "Tailwind CSS", "Vite"],
@@ -86,7 +86,7 @@ const categories = [
       {
         id: 9,
         title: "School 9",
-        image: "/images/school9.png",
+        image: "/images/school9.webp",
         description:
           "An advanced school website built with React, Tailwind, Vite, and Framer Motion, featuring smooth animations and an engaging user experience.",
         techStack: ["React", "Tailwind CSS", "Vite", "Framer Motion"],
@@ -96,7 +96,7 @@ const categories = [
       {
         id: 10,
         title: "School 10",
-        image: "/images/school10.png",
+        image: "/images/school10.webp",
         description:
           "A sleek and interactive school website built using React, Tailwind CSS, Vite, and Framer Motion, delivering smooth transitions and a modern, dynamic design.",
         techStack: ["React", "Tailwind CSS", "Vite", "Framer Motion"],
@@ -106,7 +106,7 @@ const categories = [
       {
         id: 11,
         title: "School 11",
-        image: "/images/school11.png",
+        image: "/images/school11.webp",
         description:
           "An advanced school website crafted with React, Tailwind CSS, Vite, and Framer Motion, featuring fluid animations and a premium modern look.",
         techStack: ["React", "Tailwind CSS", "Vite", "Framer Motion"],
@@ -116,7 +116,7 @@ const categories = [
       {
         id: 12,
         title: "School 12",
-        image: "/images/school13.png",
+        image: "/images/school13.webp",
         description:
           "A streamlined school website built with React, Tailwind, and Vite, emphasizing performance, clarity, and responsive design for optimal user engagement.",
         techStack: ["React", "Tailwind CSS", "Vite"],
@@ -126,7 +126,7 @@ const categories = [
       {
         id: 13,
         title: "School 13",
-        image: "/images/school14.png",
+        image: "/images/school14.webp",
         description:
           "An immersive school website built with React, Tailwind CSS, Vite, and Framer Motion, delivering animated interactions and polished user interface.",
         techStack: ["React", "Tailwind CSS", "Vite", "Framer Motion"],
@@ -136,7 +136,7 @@ const categories = [
       {
         id: 14,
         title: "School 14",
-        image: "/images/school15.png",
+        image: "/images/school15.webp",
         description:
           "A clean and user-centric school website built using React, Tailwind CSS, and Vite, optimized for speed, clarity, and effortless navigation.",
         techStack: ["React", "Tailwind CSS", "Vite"],
@@ -146,7 +146,7 @@ const categories = [
       {
         id: 15,
         title: "School 15",
-        image: "/images/school16.png",
+        image: "/images/school16.webp",
         description:
           "A clean and user-centric school website built using React, Tailwind CSS, and Vite, optimized for performance, clarity, and responsive layout.",
         techStack: ["React", "Tailwind CSS", "Vite"],
@@ -156,7 +156,7 @@ const categories = [
       {
         id: 16,
         title: "School 16",
-        image: "/images/school17.png",
+        image: "/images/school17.webp",
         description:
           "A focused school website using React, Tailwind, and Vite, prioritized for performance, clarity, and responsive pages without animation overhead.",
         techStack: ["React", "Tailwind CSS", "Vite"],
@@ -166,7 +166,7 @@ const categories = [
       {
         id: 17,
         title: "School 17",
-        image: "/images/school18.png",
+        image: "/images/school18.webp",
         description:
           "A polished school website built with React, Tailwind CSS, and Vite—streamlined for fast performance, minimal design, and seamless navigation.",
         techStack: ["React", "Tailwind CSS", "Vite"],
@@ -176,7 +176,7 @@ const categories = [
       {
         id: 18,
         title: "School 18",
-        image: "/images/school19.png",
+        image: "/images/school19.webp",
         description:
           "A modern school website built with React, Tailwind CSS, and Vite, designed for smooth navigation and elegant layouts.",
         techStack: ["React", "Tailwind CSS", "Vite", "Framer Motion"],
@@ -186,7 +186,7 @@ const categories = [
       {
         id: 19,
         title: "School 19",
-        image: "/images/school20.png",
+        image: "/images/school20.webp",
         description:
           "A responsive school website crafted with React, Tailwind CSS, and Vite. Clean design and optimized for fast performance.",
         techStack: ["React", "Tailwind CSS", "Vite"],
@@ -196,7 +196,7 @@ const categories = [
       {
         id: 20,
         title: "School 20",
-        image: "/images/school21.png",
+        image: "/images/school21.webp",
         description:
           "An engaging school website built with React, Tailwind CSS, Vite, and Framer Motion, featuring smooth transitions and animated visuals.",
         techStack: ["React", "Tailwind CSS", "Vite", "Framer Motion"],
@@ -206,7 +206,7 @@ const categories = [
       {
         id: 21,
         title: "School 21",
-        image: "/images/school22.png",
+        image: "/images/school22.webp",
         description:
           "An engaging school website built with React, Tailwind CSS, Vite, and Framer Motion, offering lively animations and seamless page interactions.",
         techStack: ["React", "Tailwind CSS", "Vite", "Framer Motion"],
@@ -216,7 +216,7 @@ const categories = [
       {
         id: 22,
         title: "School 22",
-        image: "/images/school23.png",
+        image: "/images/school23.webp",
         description:
           "A vibrant school website created with React, Tailwind CSS, Vite, and Framer Motion, offering delightful animations and smooth user engagement.",
         techStack: ["React", "Tailwind CSS", "Vite", "Framer Motion"],
@@ -226,7 +226,7 @@ const categories = [
       {
         id: 23,
         title: "School 23",
-        image: "/images/school24.png",
+        image: "/images/school24.webp",
         description:
           "An interactive school website built with React, Tailwind CSS, Vite, and Framer Motion, delivering dynamic visuals and refined user interactions.",
         techStack: ["React", "Tailwind CSS", "Vite", "Framer Motion"],
@@ -236,7 +236,7 @@ const categories = [
       {
         id: 24,
         title: "School 24",
-        image: "/images/school25.png",
+        image: "/images/school25.webp",
         description:
           "An expressive school website crafted with React, Tailwind CSS, Vite, and Framer Motion, featuring lively animations and intuitive interaction patterns.",
         techStack: ["React", "Tailwind CSS", "Vite", "Framer Motion"],
@@ -257,7 +257,7 @@ const categories = [
         techStack: ["React", "Vite", "Tailwind CSS", "Framer Motion"],
         githubUrl: "https://github.com/Arfinusmaan/Academy-1",
         liveUrl: "https://academy1-neonym.vercel.app",
-        image: "/images/academy1.jpg",
+        image: "/images/academy1.webp",
       },
       {
         id: 2,
@@ -267,7 +267,7 @@ const categories = [
         techStack: ["React", "Vite", "Tailwind CSS"],
         githubUrl: "https://github.com/Arfinusmaan/Academy-2",
         liveUrl: "https://academy2-neonym.vercel.app",
-        image: "/images/academy2.jpg",
+        image: "/images/academy2.webp",
       },
       {
         id: 3,
@@ -277,7 +277,7 @@ const categories = [
         techStack: ["React", "Vite", "Tailwind CSS"],
         githubUrl: "https://github.com/Arfinusmaan/Academy-3",
         liveUrl: "https://academy3-neonym.vercel.app",
-        image: "/images/academy3.jpg",
+        image: "/images/academy3.webp",
       },
       {
         id: 4,
@@ -287,7 +287,7 @@ const categories = [
         techStack: ["React", "Vite", "Tailwind CSS", "Framer Motion"],
         githubUrl: "https://github.com/Arfinusmaan/Academy-4",
         liveUrl: "https://academy4-neonym.vercel.app",
-        image: "/images/academy4.jpg",
+        image: "/images/academy4.webp",
       },
       {
         id: 5,
@@ -297,7 +297,7 @@ const categories = [
         techStack: ["React", "Vite", "Tailwind CSS", "Framer Motion"],
         githubUrl: "https://github.com/Arfinusmaan/Academy-5",
         liveUrl: "https://academy5-neonym.vercel.app",
-        image: "/images/academy5.jpg",
+        image: "/images/academy5.webp",
       },
     ],
   },
@@ -313,7 +313,7 @@ const categories = [
         techStack: ["React", "Vite", "Tailwind CSS"],
         githubUrl: "https://github.com/Arfinusmaan/Teacher-1",
         liveUrl: "https://teacher1-neonym.vercel.app/",
-        image: "/images/teacher1.png",
+        image: "/images/teacher1.webp",
       },
       {
         id: 2,
@@ -323,7 +323,7 @@ const categories = [
         techStack: ["React", "Vite", "Tailwind CSS"],
         githubUrl: "https://github.com/Arfinusmaan/Teacher-2",
         liveUrl: "https://teacher2-neonym.vercel.app/",
-        image: "/images/teacher2.png",
+        image: "/images/teacher2.webp",
       },
       {
         id: 3,
@@ -333,7 +333,7 @@ const categories = [
         techStack: ["React", "Vite", "Tailwind CSS"],
         githubUrl: "https://github.com/Arfinusmaan/Teacher-3",
         liveUrl: "https://teacher3-neonym.vercel.app/",
-        image: "/images/teacher3.png",
+        image: "/images/teacher3.webp",
       },
       {
         id: 4,
@@ -343,7 +343,7 @@ const categories = [
         techStack: ["React", "Vite", "Tailwind CSS"],
         githubUrl: "https://github.com/Arfinusmaan/Teacher-4",
         liveUrl: "https://teacher4-neonym.vercel.app/",
-        image: "/images/teacher4.png",
+        image: "/images/teacher4.webp",
       },
       {
         id: 5,
@@ -353,7 +353,7 @@ const categories = [
         techStack: ["React", "Vite", "Tailwind CSS"],
         githubUrl: "https://github.com/Arfinusmaan/Teacher-5",
         liveUrl: "https://teacher5-neonym.vercel.app/",
-        image: "/images/teacher5.png",
+        image: "/images/teacher5.webp",
       },
       {
         id: 6,
@@ -363,7 +363,7 @@ const categories = [
         techStack: ["React", "Vite", "Tailwind CSS"],
         githubUrl: "https://github.com/Arfinusmaan/Teacher-6",
         liveUrl: "https://teacher6-neonym.vercel.app/",
-        image: "/images/teacher6.png",
+        image: "/images/teacher6.webp",
       },
       {
         id: 7,
@@ -373,7 +373,7 @@ const categories = [
         techStack: ["React", "Vite", "Tailwind CSS", "Framer Motion"],
         githubUrl: "https://github.com/Arfinusmaan/Teacher-7",
         liveUrl: "https://teacher7-neonym.vercel.app/",
-        image: "/images/teacher7.png",
+        image: "/images/teacher7.webp",
       },
       {
         id: 8,
@@ -383,7 +383,7 @@ const categories = [
         techStack: ["React", "Vite", "Tailwind CSS"],
         githubUrl: "https://github.com/Arfinusmaan/Teacher-8",
         liveUrl: "https://teacher8-neonym.vercel.app/",
-        image: "/images/teacher8.png",
+        image: "/images/teacher8.webp",
       },
       {
         id: 9,
@@ -393,7 +393,7 @@ const categories = [
         techStack: ["React", "Vite", "Tailwind CSS"],
         githubUrl: "https://github.com/Arfinusmaan/Teacher-9",
         liveUrl: "https://teacher9-neonym.vercel.app/",
-        image: "/images/teacher9.png",
+        image: "/images/teacher9.webp",
       },
       {
         id: 10,
@@ -403,7 +403,7 @@ const categories = [
         techStack: ["React", "Vite", "Tailwind CSS", "Framer Motion"],
         githubUrl: "https://github.com/Arfinusmaan/Teacher-10",
         liveUrl: "https://teacher10-neonym.vercel.app/",
-        image: "/images/teacher10.png",
+        image: "/images/teacher10.webp",
       },
     ],
   },
@@ -441,7 +441,7 @@ const categories = [
         techStack: ["React", "Tailwind CSS", "Redux Toolkit", "Deezer API"],
         githubUrl: "https://github.com/Arfinusmaan/Lyriks-Music-App",
         liveUrl: "https://lyriks-arfin.vercel.app/",
-        image: "/images/lyriks.png",
+        image: "/images/lyriks.webp",
       },
       {
         id: 2,
@@ -451,7 +451,7 @@ const categories = [
         techStack: ["Vite", "React", "Tailwind CSS"],
         githubUrl: "https://github.com/Arfinusmaan/Nike-Landing-Page",
         liveUrl: "https://nike-arfin.vercel.app",
-        image: "/images/nike.png",
+        image: "/images/nike.webp",
       },
       {
         id: 3,
@@ -461,7 +461,7 @@ const categories = [
         techStack: ["Vite", "React", "Tailwind CSS", "GSAP"],
         githubUrl: "https://github.com/Arfinusmaan/gsap-cocktail",
         liveUrl: "https://cocktail-arfin.vercel.app",
-        image: "/images/cocktail.png",
+        image: "/images/cocktail.webp",
       },
       {
         id: 4,
@@ -471,7 +471,7 @@ const categories = [
         techStack: ["React", "Tailwind CSS", "Appwrite", "OMDb API", "Vite"],
         githubUrl: "https://github.com/Arfinusmaan/MoodFlix-A-Movie-App",
         liveUrl: "https://moodflix-arfin.vercel.app",
-        image: "/images/moodflix.png",
+        image: "/images/moodflix.webp",
       },
       {
         id: 5,
@@ -481,7 +481,7 @@ const categories = [
         techStack: ["React", "Tailwind CSS", "Vite", "TheMealDB API"],
         githubUrl: "https://github.com/Arfinusmaan/Recipe-Finder",
         liveUrl: "https://recipe-arfin.vercel.app",
-        image: "/images/recipe.png",
+        image: "/images/recipe.webp",
       },
       {
         id: 6,
@@ -492,7 +492,7 @@ const categories = [
         githubUrl:
           "https://github.com/mku2062022bca11/project1-bookstorewebsite",
         liveUrl: "https://bookstorewebsitefrontend.onrender.com",
-        image: "/images/bookstore.png",
+        image: "/images/bookstore.webp",
       },
     ],
   },

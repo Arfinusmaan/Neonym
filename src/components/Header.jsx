@@ -49,7 +49,7 @@ const Header = () => {
             className="flex items-center space-x-3"
           >
             <img 
-              src="/logo.png" 
+              src="/logo.webp" 
               alt="Neonym" 
               className="h-10 w-auto"
             />
